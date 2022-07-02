@@ -21,4 +21,5 @@ distractions_df.loc[unix_time, 'timestamp'] = current_time
 distractions_df.loc[unix_time, 'msg'] = msg
 
 #save it
+distractions_df.sort_index(inplace=True, ascending=False)
 distractions_df.to_csv(df_path, index=True)

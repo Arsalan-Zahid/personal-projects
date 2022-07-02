@@ -10,7 +10,7 @@ distractions_py = path.join(distractions_dir_path, 'distractions.py')
 #set up dictionary to convert
 
 conv_dict = {
-    'dist': distractions_py
+    'd': distractions_py
 }
 
 
